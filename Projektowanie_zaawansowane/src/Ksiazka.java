@@ -2,8 +2,8 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Ksiazka implements Serializable {
-    private String tytul;  // Pole 1: tytuł książki
-    private String autor;  // Pole 2: autor książki
+    private String tytul;
+    private String autor;
 
     public Ksiazka(String tytul, String autor) {
         this.tytul = tytul;
@@ -28,4 +28,5 @@ public class Ksiazka implements Serializable {
     public int hashCode() {
         return Objects.hash(tytul, autor);
     }
+
 }
