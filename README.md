@@ -5,7 +5,7 @@ Projekt przedstawia aplikację działającą w modelu klient–serwer, zrealizow
 **Struktura projektu**
 
 Projekt składa się z klas:
-* Server – uruchamia serwer, inicjalizuje dane oraz obsługuje klientów (osoby odpowiedzialne: Mateusz Cudny 166174 i Kacper Kujawski 166188)
+* Server – uruchamia serwer, inicjalizuje dane oraz obsługuje klientów (osoba odpowiedzialna: Mateusz Cudny 166174)
 * Client – aplikacja kliencka (osoba odpowiedzialna: Kacper Kujawski 166188)
 * Laptop – klasa reprezentująca laptop (osoba odpowiedzialna: Kacper Kujawski 166188)
 * Telefon – klasa reprezentująca telefon (osoba odpowiedzialna: Mateusz Cudny 166174)
