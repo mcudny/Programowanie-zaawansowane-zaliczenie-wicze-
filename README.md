@@ -6,8 +6,8 @@ Projekt przedstawia aplikację działającą w modelu klient–serwer, zrealizow
 
 Projekt składa się z klas:
 * Server – uruchamia serwer, inicjalizuje dane oraz obsługuje klientów (osoby odpowiedzialne: Mateusz Cudny 166174 i Kacper Kujawski 166188)
-* Client – aplikacja kliencka (osoba odpowiedzialna: Kacper Kujawski 166188 )
-* Laptop – klasa reprezentująca laptop (osoba odpowiedzialna: Kacper Kujawski 166188 )
+* Client – aplikacja kliencka (osoba odpowiedzialna: Kacper Kujawski 166188)
+* Laptop – klasa reprezentująca laptop (osoba odpowiedzialna: Kacper Kujawski 166188)
 * Telefon – klasa reprezentująca telefon (osoba odpowiedzialna: Mateusz Cudny 166174)
 * Ksiazka – klasa reprezentująca książkę (osoba odpowiedzialna: Mateusz Cudny 166174)
 
@@ -24,7 +24,7 @@ Po uruchomieniu serwer:
 
 Serwer:
 * obsługuje klientów w oddzielnych wątkach
-* posiada stałą MAX_CLIENTS, określającą maksymalną liczbę jednocześnie obsługiwanych klientów
+* posiada stałą MAX_CLIENTS określającą maksymalną liczbę jednocześnie obsługiwanych klientów
 * rejestruje identyfikatory klientów
 * w przypadku przekroczenia limitu klientów odsyła status REFUSED
 * posiada losowe opóźnienia podczas obsługi klientów
