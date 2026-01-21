@@ -53,9 +53,18 @@ Klient:
 3. Każdy klient powinien posiadać inne ID
 4. Na konsoli serwera i klientów można obserwować przebieg komunikacji
 
-Projekt realizuje wszystkie wymagania zadania:
-* model klient–serwer
-* obsługę wielu klientów z limitem połączeń
-* serializację i przesyłanie obiektów
-* obsługę wyjątków
-* współbieżność oraz losowe opóźnienia
+**Na konsoli serwera i klientów można zaobserwować przebieg komunikacji:**
+* akceptacje i odrzucanie klentów
+* przesyłane obiekty
+* błędy rzutowania
+
+**Projekt realizuje wszystkie wymagania zadania:**
+* model klient–serwer - komunikacja poprzez TCP (port 6767)
+* trzy klasy - Laptop, Telefon, Ksiazka z wymaganymi metodami
+* obsługę wielu klientów - każdy klient w osobnym wątku
+* limit połączeń - stała MAX_CLIENTS z mechanizmem odrzucania nadmiarowych połączeń
+* serializację i przesyłanie obiektów - ObjectInputStream/ObjectOutputStream
+* obsługę wyjątków - ClassCastException, IOException, synchronizacja wątków
+* współbieżność - wielowątkowość z synchronized
+* losowe opóźnienia - Thread.sleep() z losowymi wartościami
+* przetwarzanie strumieniowe – Stream API (forEach)
